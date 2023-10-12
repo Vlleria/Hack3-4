@@ -1,0 +1,136 @@
+
+/* INFO
+----------------------------
+FONT: RUDA
+
+TEXT: end of season
+TEXT: sale -COLOR: #B88940
+TEXT: 50 % off  
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+TEXT: Lorem $0.00
+
+----------------------------
+FONT: Open sans Extra Bold
+
+TEXT: your fashion -COLOR: #B88940
+
+----------------------------
+FONT: Catamaran
+
+TEXT: Lorem ipsum dolor sit amet
+
+----------------------------
+FRANJAS AMARILLAS  -COLOR: #FFBD59
+ */
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header{
+    background: black;
+    width: 110px;
+    height: 8px;
+    margin: 190px 0 70px 0;
+    border-radius: 8px;
+}
+span{
+    font-size: 40px;
+    font-family:"Ruda";
+    font-weight: 700;
+}
+h1{
+    font-family: "Ruda";
+    font-weight: 900;
+    font-size: 65px;
+    margin: 30px 0 0 0 ;    
+}
+p{
+    font-size: 120px;
+    font-family: "Ruda";
+    letter-spacing: 1cm;
+    color: #B88940;
+    font-weight: 900;
+}
+h2{
+    font-size: 35px;
+    font-family: "Catamaran";
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+/* ------------------------------------ */
+main{
+    margin-top: 10%;
+    height: 60vh;
+
+}
+.lineas{
+    position: absolute;
+    margin-top: 45px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.lineas > div{
+    height: 45px;
+    width: 95%;
+    margin: 15px 0 36px 30px;
+    background: #FFBD59;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.imagenContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.imagenContainer>figure{
+
+    display: flex;
+    width: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+
+figcaption{
+    display:flex;
+    margin-top: 10%;
+    font-size: 35px;
+    font-family: "Catamaran";
+    font-weight: 900;
+}
+/* --------------------------------- */
+footer>nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 20%;
+}
+footer>nav>p{
+    font-size: 65px;
+    letter-spacing: 0.2cm;
+    font-weight: 900;
+}
+footer>nav>h2{
+    margin: 0 0 100px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
